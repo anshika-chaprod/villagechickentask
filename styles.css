@@ -1,0 +1,596 @@
+body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+    margin: 0 auto;
+    margin-right: 35px;
+    display: block;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: absolute;
+    background-color: white;
+}
+
+
+.logo{
+    padding: 0%;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 30px;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    padding: 0px 20px;
+    color: black;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+nav li a:hover{
+    color: #339710;
+    transition: all 0.4s ease 0s;
+}
+
+.cart{
+    margin-top: 25px;
+    width: 32.769px; 
+    height: 28.884px; 
+    flex-shrink: 0;
+    margin-left: 240px;
+}
+
+
+.profile{
+    margin-top: 25px;
+    margin-right: 50px;
+    width: 32.769px; 
+    height: 28.884px; 
+    flex-shrink: 0;
+}
+
+hr{
+    padding: 28px;
+    width: 1217px;
+    height: 2px;
+    border: 1.5px solid rgba(126, 211, 40, 0.30);
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.h2{
+    padding: 0px;
+    margin:  0px;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(126, 211, 40, 0.30);
+}
+.content1{
+    width: 1100px;
+    height: 550px;
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 100px;
+}
+
+.village-chicken {
+    margin: 0 auto;
+    width: 550px;
+    padding: 50px;
+    margin-top: 2px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+}
+
+.village-chicken h1{
+    color: #339710;
+    width: 604px;
+    padding: 10px;
+    font-family: DM Sans;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%;
+}
+
+.village-chicken p{
+    color: #3A3A3A;
+    width: 440px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    padding: 10px;
+    font-weight: 300;
+    line-height: 131.5%;
+}
+button {
+    width: 304px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #DDA619;
+    box-shadow: 15px 15px 30px 0px rgba(252, 201, 125, 0.30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.scrolltobottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+.image1{
+    width: 620px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.cardarea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.card a{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-top: 15px;
+}
+.cardtext{
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+}
+
+.card h1 {
+    color: #1F1F1F;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 24.36px */
+}
+
+.card p {
+    width: 230px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 131.5%; /* 15.78px */
+}
+
+.content2{
+    width: 1100px;
+    height: 550px;
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.grilled-chicken {
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px;
+    margin-right: 100px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+}
+
+.fries{
+    width: 179.219px;
+    height: 35.129px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    color: #339710;
+    display: flex;
+    flex-direction: row;
+}
+
+.fries p{
+    color: #339710;
+    text-decoration-color: #339710;
+    font-family: DM Sans;
+    padding: auto;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 18.27px */
+    text-decoration-line: underline;
+}
+
+.fries a{
+    width: 25.219px;
+    height: 35.129px;
+    flex-shrink: 0;
+}
+
+.image2{
+    width: 503px;
+    height: 501px;
+    flex-shrink: 0;
+}
+
+.grilled-chicken h1{
+    width: 442px;
+    color: #1F1F1F;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 48.72px */
+}
+
+.grilled-chicken p{
+    width: 480px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+.content3{
+    width: 1100px;
+    height: 550px;
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.combo-chicken {
+    margin: 0 auto;
+    width: 550px;
+    padding: 50px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+}
+
+.image4{
+    width: 503px;
+    height: 501px;
+    flex-shrink: 0;
+}
+
+.combo-chicken h1{
+    width: 400px;
+    color: #1F1F1F;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 48.72px */
+}
+
+.combo-chicken p{
+    width: 480px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+.content4{
+    width: 1100px;
+    height: 550px;
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.crunchy-chicken {
+    margin: 0 auto;
+    width: 550px;
+    padding: 50px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+}
+
+.image5{
+    width: 503px;
+    height: 501px;
+    flex-shrink: 0;
+}
+
+.crunchy-chicken h1{
+    width: 400px;
+    color: #1F1F1F;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 48.72px */
+}
+
+.crunchy-chicken p{
+    width: 480px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+.feedbackarea { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+    width: 1100px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    display: grid;
+    margin-left: 80px;
+    margin-right: 50px;
+    background: rgba(51, 151, 16, 0.10);
+} 
+
+.testimonial { 
+    color: #1F1F1F;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    align-items: center;
+    font-weight: 700;
+    line-height: 101.5%; /* 48.72px */
+} 
+
+.testimonial h3{
+    margin-left: 370px;
+}
+
+.textt{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.arrowleft{
+    margin-top: 50px;
+    width: 19px;
+    height: 16.626px;
+    flex-shrink: 0;
+}
+
+.firstfeed{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 400px;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.firstfeed a{
+    width: 103px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.jb1{
+    display: grid;
+}
+
+.jb1 h1{
+    color: #339710;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 9px;
+    line-height: 101.5%;
+}
+
+.jb1 p{
+    width: 270px;
+    padding: 10px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+.secondfeed{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 400px;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.secondfeed a{
+    width: 103px;
+    height: 103px;
+    flex-shrink: 0;
+}
+
+.jb2{
+    display: grid;
+}
+
+.jb2 h1{
+    color: #339710;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 9px;
+    line-height: 101.5%;
+}
+
+.jb2 p{
+    width: 270px;
+    padding: 10px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+.arrowright{
+    margin-top: 50px;
+    width: 19px;
+    height: 16.626px;
+    flex-shrink: 0;
+}
+
+.getupdate{
+    display: flex;
+    width: 1100px;
+    height: 320px;
+    margin-left: 80px;
+    margin-top: 80px
+}
+
+.getupdate a{
+    width: 150px;
+    height: 126.714px;
+    margin-top: 50px;
+    flex-shrink: 0;
+}
+
+.uptext{
+    display: grid;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-right: 650px;
+}
+
+.uptext h1{
+    color: #1F1F1F;
+    padding: 0px;
+    font-family: DM Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.5%; /* 36.54px */
+}
+
+.uptext p{
+    width: 480px;
+    padding: 0px;
+    color: #3A3A3A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 131.5%; /* 23.67px */
+}
+
+#email-input {
+    width: 480px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(126, 211, 40, 0.30);
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image-button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.button-image {
+    width: 76px;
+    height: 76px;
+    flex-shrink: 0;
+}
+
+
+.socialmedia{
+    display: grid;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 270px;
+}
+
+.socialmedia a{
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.socialmedia p{
+    color: #656565;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.5%; /* 18.41px */
+    text-transform: capitalize;
+}
